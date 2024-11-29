@@ -1,0 +1,10 @@
+template:
+  path: lambda.yaml
+  type: file
+parameters:
+  VpcId: !stack_output demo/vpc.yaml::VpcId
+  SecurityGroupId: !stack_output demo/vpc.yaml::SecurityGroupId
+  RouteTableId: !stack_output demo/vpc.yaml::RouteTableId
+  SubnetId: !stack_output demo/vpc.yaml::SubnetId
+  ListsTable: !stack_output demo/dynamodb.yaml::ListsTable
+  ListsTableArn: !stack_output demo/dynamodb.yaml::ListsTableArn

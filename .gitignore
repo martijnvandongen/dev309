@@ -1,0 +1,21 @@
+.build-app/
+.terraform
+.terraform.lock.hcl
+.build/
+terraform.tfstate
+.terraform.tfstate.lock.info
+terraform.tfstate.backup
+
+# copy from cdk project
+*.swp
+package-lock.json
+__pycache__
+.pytest_cache
+.venv
+*.egg-info
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+.DS_Store

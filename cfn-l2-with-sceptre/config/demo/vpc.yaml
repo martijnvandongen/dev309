@@ -1,0 +1,6 @@
+template:
+  path: vpc.yaml
+  type: file
+parameters:
+  VpcCidrBlock: 10.0.0.0/16
+  SubnetCidrBlock: 10.0.0.0/24

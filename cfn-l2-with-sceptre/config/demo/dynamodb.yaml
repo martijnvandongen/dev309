@@ -1,0 +1,3 @@
+template:
+  path: dynamodb.yaml
+  type: file
